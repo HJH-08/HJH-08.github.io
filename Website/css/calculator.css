@@ -18,14 +18,22 @@ body{
 
 .backgroundText{
     position: absolute;
-    left: 3em;
-    bottom: .6em;
-    z-index:-1;
-    font-size: 180px;
-    margin: 0;
-    font-family: 'Londrina Outline', cursive;
-    color: rgba(0, 0, 0, .1);
-    padding: 0;
+    z-index: -1;
+    font-size: .1px;
+}
+
+@media (min-width:600px){
+    .backgroundText{
+        position: absolute;
+        left: 3em;
+        bottom: .6em;
+        z-index:-1;
+        font-size: 180px;
+        margin: 0;
+        font-family: 'Londrina Outline', cursive;
+        color: rgba(0, 0, 0, .1);
+        padding: 0;
+}
 }
 
 .line{
